@@ -1,34 +1,226 @@
 @import url('https://www.w3schools.com/w3css/4/w3.css');
 @import url('https://unpkg.com/purecss@1.0.0/build/pure-min.css');
-@import "https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css";
+@import url('https: //cdn.rawgit.com/google/code-prettify/master/styles/desert.css');
+@import url('https: //rawgit.com/siolarah/cardeostrap/master/assets/css/theme.css');
 
 
 
-.p {
-    padding-left: 10px!important;
+
+
+/* Basic */
+body {
+    background: #ffffff;
+    font-family: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #333333;
 }
 
-
-#lightGreyStyle {
-    color: #9D9A9A;
-    border: 3px solid #9D9A9A;
-    text-shadow: 1px 2px 2px #9D9A9A;
-    box-shadow: 2px 2px 7px 1px #9D9A9A;
+ul, ol {
+    margin-bottom: 1.5em;
+    margin-left: 2em;
 }
 
+ul.unstyled, ul.inline {
+    margin-left: 0;
+    padding-left: 0;
+}
 
-#bodyFont {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    letter-spacing: 0px;
-    word-spacing: 1px;
-    color: black;
-    font-weight: normal;
+li {
+    line-height: 1.428571429;
+}
+
+ul.inline li {
+    margin-right: 1em;
+    display: inline-block;
+}
+
+ul.inline li.right {
+    margin-left: 1em;
+}
+
+a, a:link, a:visited {
+    color: #3498db;
     text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
 }
+
+a:hover {
+    color: #232323;
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+hr {
+    margin: 1.5em 0;
+    border-top: 1px solid #bdc3c7;
+    border-bottom: 0;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
+    font-weight: normal;
+}
+
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+}
+
+
+small, .small {
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+.text-muted {
+    color: #bdc3c7;
+}
+
+.text-primary {
+    color: #333333;
+}
+
+.text-warning {
+    color: #f1c40f;
+}
+
+.text-danger {
+    color: #e74c3c;
+}
+
+.text-success {
+    color: #2ecc71;
+}
+
+.text-info {
+    color: #1abc9c;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/* 
+TABLES
+*/
+
+table, .table {
+    margin-bottom: 1.5em;
+    background: #ffffff;
+}
+
+th, .table th, .table th {
+    padding: 1em;
+    line-height: 1.428571429;
+}
+
+td, .table td, .table td {
+    padding: 1em;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    -moz-transition: background 0.1s linear;
+    -webkit-transition: background 0.1s linear;
+    transition: background 0.1s linear;
+}
+
+caption {
+    font-weight: bold;
+    padding: 1em;
+    border: 1px solid #bdc3c7;
+    border-bottom: 0;
+}
+
+
+/* adds zebra striping */
+
+.table-striped tbody > tr:nth-child(odd) {
+    background: #ecf0f1;
+}
+
+
+/* enables a hover state on table rows within the tbody */
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th, .table-striped.table-hover tbody tr:hover td, .table-striped.table-hover tbody tr:hover th {
+    background-color: #bdc3c7;
+    -moz-transition: background 0.1s linear;
+    -webkit-transition: background 0.1s linear;
+    transition: background 0.1s linear;
+}
+
+
+/* makes tables more condensed by cutting cell padding in half */
+
+.table-condensed th, .table-condensed td, .table-striped.table-condensed td, .table-striped.table-condensed th {
+    padding: 0.5em;
+    font-size: 0.857em;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: transparent;
+}
+
+.table-bordered th, .table-bordered td {
+    border: #bdc3c7 1px solid;
+    border-top: 0;
+}
+
+th.center, td.center {
+    text-align: center;
+}
+
+th.right, td.right {
+    text-align: right;
+}
+
+th {
+    white-space: nowrap;
+}
+
+.table > thead > tr > td.success, .table > tbody > tr > td.success, .table > tfoot > tr > td.success, .table > thead > tr > th.success, .table > tbody > tr > th.success, .table > tfoot > tr > th.success, .table > thead > tr.success > td, .table > tbody > tr.success > td, .table > tfoot > tr.success > td, .table > thead > tr.success > th, .table > tbody > tr.success > th, .table > tfoot > tr.success > th {
+    background: #27ae60;
+    border-color: #27ae60;
+    color: #ffffff;
+}
+
+.table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th {
+    background: #c0392b;
+    border-color: #c0392b;
+    color: #ffffff;
+}
+
+.table > thead > tr > td.warning, .table > tbody > tr > td.warning, .table > tfoot > tr > td.warning, .table > thead > tr > th.warning, .table > tbody > tr > th.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > tbody > tr.warning > td, .table > tfoot > tr.warning > td, .table > thead > tr.warning > th, .table > tbody > tr.warning > th, .table > tfoot > tr.warning > th {
+    background: #f39c12;
+    border-color: #f39c12;
+    color: #ffffff;
+}
+
+.table > thead > tr > td.active, .table > tbody > tr > td.active, .table > tfoot > tr > td.active, .table > thead > tr > th.active, .table > tbody > tr > th.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > tbody > tr.active > td, .table > tfoot > tr.active > td, .table > thead > tr.active > th, .table > tbody > tr.active > th, .table > tfoot > tr.active > th {
+    background-color: #ecf0f1;
+    border-color: #bdc3c7;
+}
+
+
+
+
+
+
+
 
 
 #mainbody {
@@ -394,38 +586,27 @@ mark {
 
 
 /* Section */
-
+.section {
+    padding: 15px;
+}
 
 
 
 
 /* Paragraph */
-
+.p {
+    padding-left: 5px!important;
+    padding-bottom: 5px!important;
+}
 
 
 
 
 /* Steps Section */
+.step {
+    padding: 5px!important;
+}
 
-
-
-
-/* Requirements */
-
-
-
-
-/* Terminal */
-
-
-
-
-/* Related Content Section */
-
-
-
-
-/* Aside */
 
 
 
