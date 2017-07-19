@@ -1,1 +1,359 @@
-@import url('');
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://unpkg.com/purecss@1.0.0/build/pure-min.css');
+@import "https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css";
+
+
+
+#greyBorder {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(4, 4, 4, 0.45);
+}
+
+
+#lightGreyStyle {
+    color: #9D9A9A;
+    border: 3px solid #9D9A9A;
+    text-shadow: 1px 2px 2px #9D9A9A;
+    box-shadow: 2px 2px 7px 1px #9D9A9A;
+}
+
+
+#bodyFont {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
+#mainbody {
+    margin-left: 120px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: 0px solid;
+}
+
+
+
+/* Serialio Colors */
+.blue1 {color:#00ADEE;}
+.blue2 {color:#4289C3;}
+.blue3 {color:#00426D;}
+.red1 {color:#E54E4B;}
+.red2 {color:#E41B23;}
+.grey1 {color:#F3F3F3;}
+.grey2 {color:#9B9DA0;}
+.grey3 {color:#898989;}
+.grey4 {color:#434343;}
+
+
+
+
+
+/* Links */
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+    outline-width: 0
+}
+a:active {
+    color: red;
+    outline-width: 0
+}
+
+
+
+
+
+
+/* Headers */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* Unordered List */
+ul.circle {
+    list-style-type: circle inside;
+}
+
+ul.square {
+    list-style-type: square inside;
+}
+
+ul.disc {
+    list-style-type: disc inside;
+}
+
+ul.none {
+    list-style-type: none inside;
+}
+
+
+
+
+
+
+
+/* Ordered List */
+ol.num {
+    list-style-type: decimal inside; 
+}
+
+ol.lowerroman {
+    list-style-type: lower-roman inside;
+}
+
+ol.upperroman {
+    list-style-type: upper-roman inside;
+}
+
+ol.loweralpha {
+    list-style-type: lower-alpha inside;
+}
+
+ol.upperalpha {
+    list-style-type: upper-alpha inside;
+}
+
+ol.none {
+    list-style-type: none;
+}
+
+
+/* Fancy List (.f) */
+ol.f {
+    color: #000000;
+    list-style-type: none;
+}
+
+ol.f li.f {
+    position: relative;
+    font: bold italic 50px/1.5 Helvetica, Verdana, sans-serif;
+    margin-bottom: 60px;
+    color: #E54E4B;
+}
+
+li.f p {
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding-left: 60px;
+    color: #000;
+}
+
+
+
+span.a {
+    position: absolute;
+}
+
+
+
+
+
+/* Comment */
+.comment {
+    border-left: 3px solid #434343!important;
+    background-color: #F3F3F3;
+    padding: 16px!important;
+    color: #434343;
+}
+
+
+
+
+
+
+
+/* Tip */
+.tip {
+    border-left: 3px solid #4CAF50!important;
+    background-color: #DDFFDD;
+    padding: 16px!important;
+    color: #337536;
+}
+
+/* Info */
+.information {
+    border-left: 3px solid #2196F3!important;
+    background-color: #D7F2FF;
+    padding: 16px!important;
+    color: #0A62A9;
+}
+
+/* Warning */
+.warning {
+    border-left: 3px solid #FFEB3B!important;
+    background-color: #FFFFCC;
+    padding: 16px!important;
+    color: #716500;
+}
+
+/* Critical */
+.critical {
+    border-left: 3px solid #E54E4B!important;
+    background-color: #FFDDDD;
+    padding: 16px!important;
+    color: #6C0D12!important;
+}
+
+
+
+
+
+/* Code Block ++ */
+
+
+
+
+
+
+/* Terminal Block */
+.terminal-block {
+    border-left: 3px solid #E54E4B!important;
+    background-color: #FFDDDD;
+    padding: 16px!important;
+    color: #6C0D12!important;
+}
+
+
+
+
+
+/* Configuration Block */
+.config-block {
+    border-left: 3px solid #E54E4B!important;
+    background-color: #FFDDDD;
+    padding: 16px!important;
+    color: #6C0D12!important;
+}
+
+
+
+
+
+/* Description Block */
+.description-block {
+    border-left: 3px solid #E54E4B!important;
+    background-color: #FFDDDD;
+    padding: 16px!important;
+    color: #6C0D12!important;
+}
+
+
+
+
+
+/* Requirements Block */
+.req-block {
+    border-left: 3px solid #E54E4B!important;
+    background-color: #FFDDDD;
+    padding: 16px!important;
+    color: #6C0D12!important;
+}
+
+
+
+
+
+/* Definition */
+dfn {
+    font-style: italic
+}
+
+
+
+
+
+/* Mark */
+mark {
+    background: #ff0;
+    color: #000
+}
+
+
+
+
+
+
+/* Section */
+
+
+
+
+
+/* Paragraph */
+
+
+
+
+
+/* Steps Section */
+
+
+
+
+/* Requirements */
+
+
+
+
+/* Terminal */
+
+
+
+
+/* Related Content Section */
+
+
+
+
+/* Aside */
+
+
+
+
+
+/* Tooltip */
