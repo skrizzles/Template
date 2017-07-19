@@ -1,0 +1,674 @@
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://unpkg.com/purecss@1.0.0/build/pure-min.css');
+@import url('https: //cdn.rawgit.com/google/code-prettify/master/styles/desert.css');
+@import url('https: //rawgit.com/siolarah/cardeostrap/master/assets/css/theme.css');
+
+/* Basic */
+
+body {
+    background: #ffffff;
+    font-family: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #333333;
+}
+
+ul,
+ol {
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+}
+
+ul.unstyled,
+ul.inline {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    line-height: 1.428571429;
+}
+
+ul.inline li {
+    margin-right: 1em;
+    display: inline-block;
+}
+
+ul.inline li.right {
+    margin-left: 1em;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+hr {
+    margin: 1.5em 0;
+    border-top: 1px solid #bdc3c7;
+    border-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
+    font-weight: normal;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0.5em 0em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333333;
+}
+
+small,
+.small {
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+.text-muted {
+    color: #bdc3c7;
+}
+
+.text-primary {
+    color: #333333;
+}
+
+.text-warning {
+    color: #f1c40f;
+}
+
+.text-danger {
+    color: #e74c3c;
+}
+
+.text-success {
+    color: #2ecc71;
+}
+
+.text-info {
+    color: #1abc9c;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* 
+TABLES
+*/
+
+table,
+.table {
+    margin-bottom: 1.5em;
+    background: #ffffff;
+}
+
+th,
+.table th,
+.table th {
+    padding: 1em;
+    line-height: 1.428571429;
+}
+
+td,
+.table td,
+.table td {
+    padding: 1em;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    -moz-transition: background 0.1s linear;
+    -webkit-transition: background 0.1s linear;
+    transition: background 0.1s linear;
+}
+
+caption {
+    font-weight: bold;
+    padding: 1em;
+    border: 1px solid #bdc3c7;
+    border-bottom: 0;
+}
+
+#mainbody {
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: 0px solid;
+}
+
+
+/* Serialio Colors */
+
+.lYellow {
+    color: #FFF4AF;
+}
+
+.sYellow {
+    color: #FCDB0A;
+}
+
+.dYellow {
+    color: #FBC400;
+}
+
+.lGreen {
+    color: #72DC89;
+}
+
+.sGreen {
+    color: #28BF49;
+}
+
+.mGreen {
+    color: #01851E;
+}
+
+.dGreen {
+    color: #00420F;
+}
+
+.lRed {
+    color: #FFF2F4;
+}
+
+.mRed {
+    color: #E54E4B;
+}
+
+.sRed {
+    color: #AF2828;
+}
+
+.bRed {
+    color: #E41B23;
+}
+
+.dRed {
+    color: #630000;
+}
+
+.fGrey {
+    color: #F3F3F3;
+}
+
+.lGrey {
+    color: #B0B0B0;
+}
+
+.mGrey {
+    color: #7A7A7A;
+}
+
+.sGrey {
+    color: #333538;
+}
+
+.dGrey {
+    color: #252525;
+}
+
+.ddGrey {
+    color: #131518;
+}
+
+.lBlue {
+    color: #4289C3;
+}
+
+.sBlue {
+    color: #2560FA;
+}
+
+.bBlue {
+    color: #053CC5;
+}
+
+.mBlue {
+    color: #00426D;
+}
+
+.dBlue {
+    color: #092565;
+}
+
+.cihBlue {
+    color: #00ADEE;
+}
+
+.plainColor {
+    color: #FAFAFA;
+}
+
+
+
+/* Background Colors */
+
+.lYellowB {
+    background-color: #FFF4AF;
+    color: #000000;
+}
+
+.sYellowB {
+    background-color: #FCDB0A;
+    color: #000000;
+}
+
+.dYellowB {
+    background-color: #FBC400;
+    color: #000000;
+}
+
+.lGreenB {
+    background-color: #72DC89;
+    color: #000000;
+}
+
+.sGreenB {
+    background-color: #28BF49;
+    color: #ffffff;
+}
+
+.mGreenB {
+    background-color: #01851E;
+    color: #ffffff;
+}
+
+.dGreenB {
+    background-color: #00420F;
+    color: #ffffff;
+}
+
+.lRedB {
+    background-color: #FFF2F4;
+    color: #000000;
+}
+
+.mRedB {
+    background-color: #E54E4B;
+    color: #ffffff;
+}
+
+.sRedB {
+    background-color: #AF2828;
+    color: #ffffff;
+}
+
+.bRedB {
+    background-color: #E41B23;
+    color: #ffffff;
+}
+
+.dRedB {
+    background-color: #630000;
+    color: #ffffff;
+}
+
+.fGreyB {
+    background-color: #F3F3F3;
+    color: #000000;
+}
+
+.lGreyB {
+    background-color: #B0B0B0;
+    color: #000000;
+}
+
+.mGreyB {
+    background-color: #7A7A7A;
+    color: #000000;
+}
+
+.sGreyB {
+    background-color: #333538;
+    color: #ffffff;
+}
+
+.dGreyB {
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.ddGreyB {
+    background-color: #131518;
+    color: #ffffff;
+}
+
+.lBlueB {
+    background-color: #4289C3;
+    color: #000000;
+}
+
+.sBlueB {
+    background-color: #1943A4;
+    color: #ffffff;
+}
+
+.bBlueB {
+    background-color: #053CC5;
+    color: #ffffff;
+}
+
+.mBlueB {
+    background-color: #00426D;
+    color: #ffffff;
+}
+
+.dBlueB {
+    background-color: #092565;
+    color: #ffffff;
+}
+
+.cihBlueB {
+    background-color: #00ADEE;
+    color: #ffffff;
+}
+
+.plainColorB {
+    background-color: #FAFAFA;
+    color: #000000;
+}
+
+
+/* Links */
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:link {
+    color: #2E67F7;
+}
+
+a:visited {
+    color: #053CC5;
+}
+
+a:hover {
+    color: red;
+    outline-width: 0
+}
+
+a:active {
+    color: #8D0E0E;
+    outline-width: 0
+}
+
+
+/* Headers */
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Fancy List (.f) */
+
+ol.f {
+    color: #000000;
+    list-style-type: none;
+}
+
+ol.f li.f {
+    position: relative;
+    font: bold italic 50px/1.5 Helvetica, Verdana, sans-serif;
+    margin-bottom: 60px;
+    color: #E54E4B;
+}
+
+li.f p {
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding-left: 60px;
+    color: #000;
+}
+
+span.a {
+    position: absolute;
+}
+
+
+/* Comment */
+
+.comment {
+    border-left: 5px solid #7A7A7A!important;
+    background-color: #F3F3F3;
+    padding: 10px!important;
+    color: #252525;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Tip */
+
+.tip {
+    border-left: 4px solid #4CAF50!important;
+    background-color: #DDFFDD;
+    padding: 5px!important;
+    color: #00420F;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Info */
+
+.information {
+    border-left: 5px solid #2196F3!important;
+    background-color: #D7F2FF;
+    padding: 5px!important;
+    color: #252525;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Warning */
+
+.warning {
+    border-left: 5px solid #FFEB3B!important;
+    background-color: #FFFFCC;
+    padding: 5px!important;
+    color: #252525;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Critical */
+
+.critical {
+    border-left: 5px solid #E54E4B!important;
+    background-color: #FFF2F4;
+    padding: 5px!important;
+    color: #000000!important;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Code Block ++ */
+
+.codeBlock {
+    margin-left: 35px;
+    width: 50%;
+    border-left: 15px solid #333538!important;
+    background-color: #F3F3F3;
+    padding: 15px!important;
+    color: #333538!important;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: monospace, Courier, sans-serif;
+}
+
+
+/* Terminal Block */
+
+.terminalBlock {
+    margin-left: 35px;
+    width: 50%;
+    border-left: 10px solid #7A7A7A!important;
+    background-color: #131518;
+    padding: 15px!important;
+    color: #F3F3F3!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: monospace, Courier, sans-serif;
+}
+
+
+/* Configuration Block */
+
+.configBlock {
+    border: 1px solid #AAAAAA!important;
+    background-color: #F3F3F3;
+    padding: 10px!important;
+    color: #252525!important;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Description Block */
+
+.desBlock {
+    border: 1px solid #7A7A7A!important;
+    background-color: #F3F3F3;
+    padding: 10px!important;
+    color: #7A7A7A!important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+}
+
+
+/* Requirements Block */
+
+.reqBlock {
+    border: 1px solid #E54E4B!important;
+    background-color: #FFF2F4;
+    padding: 10px!important;
+    color: #000;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Definition */
+
+dfn {
+    font-style: italic
+}
+
+
+/* Mark */
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+
+/* Section */
+
+.section {
+    padding: 15px;
+}
+
+
+/* Paragraph */
+
+.p {
+    padding-left: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+
+/* Steps Section */
+
+.step {
+    padding: 5px!important;
+}
+
+
+/* Tooltip */
