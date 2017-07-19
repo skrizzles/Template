@@ -1,13 +1,11 @@
 @import url('https://www.w3schools.com/w3css/4/w3.css');
 @import url('https://unpkg.com/purecss@1.0.0/build/pure-min.css');
-@import url("https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css");
+@import "https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css";
 
 
 
-#greyBorder {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(4, 4, 4, 0.45);
+.p {
+    padding-left: 10px!important;
 }
 
 
@@ -20,11 +18,11 @@
 
 
 #bodyFont {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
     letter-spacing: 0px;
     word-spacing: 1px;
-    color: #000000;
+    color: black;
     font-weight: normal;
     text-decoration: none;
     font-style: normal;
@@ -34,26 +32,42 @@
 
 
 #mainbody {
-    margin-left: 120px;
-    padding-top: 15px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
     border: 0px solid;
 }
 
 
 
 /* Serialio Colors */
-.blue1 {color:#00ADEE;}
-.blue2 {color:#4289C3;}
-.blue3 {color:#00426D;}
-.red1 {color:#E54E4B;}
-.red2 {color:#E41B23;}
-.grey1 {color:#F3F3F3;}
-.grey2 {color:#9B9DA0;}
-.grey3 {color:#898989;}
-.grey4 {color:#434343;}
+.lYellow {color:#FFF4AF;}
+.sYellow {color:#FCDB0A;}
+dYellow {color:#FBC400;}
+.lGreen {color:#72DC89;}
+.sGreen {color:#28BF49;}
+.mGreen {color:#01851E;}
+dGreen {color:#00420F;}
+.lRed {color:#FFF2F4;}
+.mRed {color:#E54E4B;}
+.sRed {color:#AF2828;}
+.bRed {color:#E41B23;}
+.dRed {color:#630000;}
+.fGrey {color:#F3F3F3;}
+.lGrey {color:#B0B0B0;}
+.mGrey {color:#7A7A7A;}
+.sGrey {color:#333538;}
+.dGrey {color:#252525;}
+.ddGrey {color:#131518;}
+.lBlue {color:#4289C3;}
+.sBlue {color:#1943A4;}
+.bBlue {color:#053CC5;}
+.mBlue {color:#00426D;}
+.dBlue {color:#092565;}
+.cihBlue {color:#00ADEE;}
+.plainColor {color:#FAFAFA;}
 
 
 
@@ -65,17 +79,17 @@ a {
     -webkit-text-decoration-skip: objects
 }
 a:link {
-    color: blue;
+    color: #2E67F7;
 }
 a:visited {
-    color: purple;
+    color: #053CC5;
 }
 a:hover {
     color: red;
     outline-width: 0
 }
 a:active {
-    color: red;
+    color: #8D0E0E;
     outline-width: 0
 }
 
@@ -195,10 +209,14 @@ span.a {
 
 /* Comment */
 .comment {
-    border-left: 3px solid #434343!important;
+    border-left: 5px solid #7A7A7A!important;
     background-color: #F3F3F3;
-    padding: 16px!important;
-    color: #434343;
+    padding: 10px!important;
+    color: #252525;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
 }
 
 
@@ -209,65 +227,112 @@ span.a {
 
 /* Tip */
 .tip {
-    border-left: 3px solid #4CAF50!important;
+    border-left: 4px solid #4CAF50!important;
     background-color: #DDFFDD;
-    padding: 16px!important;
-    color: #337536;
+    padding: 5px!important;
+    color: #00420F;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
 }
+
+
 
 /* Info */
 .information {
-    border-left: 3px solid #2196F3!important;
+    border-left: 5px solid #2196F3!important;
     background-color: #D7F2FF;
-    padding: 16px!important;
-    color: #0A62A9;
+    padding: 5px!important;
+    color: #252525;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
 }
+
+
 
 /* Warning */
 .warning {
-    border-left: 3px solid #FFEB3B!important;
+    border-left: 5px solid #FFEB3B!important;
     background-color: #FFFFCC;
-    padding: 16px!important;
-    color: #716500;
+    padding: 5px!important;
+    color: #252525;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
 }
+
+
 
 /* Critical */
 .critical {
-    border-left: 3px solid #E54E4B!important;
-    background-color: #FFDDDD;
-    padding: 16px!important;
-    color: #6C0D12!important;
+    border-left: 5px solid #E54E4B!important;
+    background-color: #FFF2F4;
+    padding: 5px!important;
+    color: #000000!important;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
 }
-
 
 
 
 
 /* Code Block ++ */
-
+.codeBlock {
+    margin-left: 35px;
+    width: 50%;
+    border-left: 15px solid #333538!important;
+    background-color: #F3F3F3;
+    padding: 15px!important;
+    color: #333538!important;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: monospace, Courier, sans-serif;
+}
 
 
 
 
 
 /* Terminal Block */
-.terminal-block {
-    border-left: 3px solid #E54E4B!important;
-    background-color: #FFDDDD;
-    padding: 16px!important;
-    color: #6C0D12!important;
+.terminalBlock {
+    margin-left: 35px;
+    width: 50%;
+    border-left: 10px solid #7A7A7A!important;
+    background-color: #131518;
+    padding: 15px!important;
+    color: #F3F3F3!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: monospace, Courier, sans-serif;
 }
 
 
 
 
-
 /* Configuration Block */
-.config-block {
-    border-left: 3px solid #E54E4B!important;
-    background-color: #FFDDDD;
-    padding: 16px!important;
-    color: #6C0D12!important;
+.configBlock {
+    border: 1px solid #AAAAAA!important;
+    background-color: #F3F3F3;
+    padding: 10px!important;
+    color: #252525!important;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
 }
 
 
@@ -275,11 +340,17 @@ span.a {
 
 
 /* Description Block */
-.description-block {
-    border-left: 3px solid #E54E4B!important;
-    background-color: #FFDDDD;
-    padding: 16px!important;
-    color: #6C0D12!important;
+.desBlock {
+    border: 1px solid #7A7A7A!important;
+    background-color: #F3F3F3;
+    padding: 10px!important;
+    color: #7A7A7A!important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -287,11 +358,15 @@ span.a {
 
 
 /* Requirements Block */
-.req-block {
-    border-left: 3px solid #E54E4B!important;
-    background-color: #FFDDDD;
-    padding: 16px!important;
-    color: #6C0D12!important;
+.reqBlock {
+    border: 1px solid #E54E4B!important;
+    background-color: #FFF2F4;
+    padding: 10px!important;
+    color: #000;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.75);
+    font-family: Arial, sans-serif;
 }
 
 
