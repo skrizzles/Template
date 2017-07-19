@@ -268,104 +268,133 @@ caption {
     color: #FAFAFA;
 }
 
+
+
+/* Background Colors */
+
 .lYellowB {
     background-color: #FFF4AF;
+    color: #000000;
 }
 
 .sYellowB {
     background-color: #FCDB0A;
+    color: #000000;
 }
 
 .dYellowB {
     background-color: #FBC400;
+    color: #000000;
 }
 
 .lGreenB {
     background-color: #72DC89;
+    color: #000000;
 }
 
 .sGreenB {
     background-color: #28BF49;
+    color: #ffffff;
 }
 
 .mGreenB {
     background-color: #01851E;
+    color: #ffffff;
 }
 
 .dGreenB {
     background-color: #00420F;
+    color: #ffffff;
 }
 
 .lRedB {
     background-color: #FFF2F4;
+    color: #000000;
 }
 
 .mRedB {
     background-color: #E54E4B;
+    color: #ffffff;
 }
 
 .sRedB {
     background-color: #AF2828;
+    color: #ffffff;
 }
 
 .bRedB {
     background-color: #E41B23;
+    color: #ffffff;
 }
 
 .dRedB {
     background-color: #630000;
+    color: #ffffff;
 }
 
 .fGreyB {
     background-color: #F3F3F3;
+    color: #000000;
 }
 
 .lGreyB {
     background-color: #B0B0B0;
+    color: #000000;
 }
 
 .mGreyB {
     background-color: #7A7A7A;
+    color: #000000;
 }
 
 .sGreyB {
     background-color: #333538;
+    color: #ffffff;
 }
 
 .dGreyB {
     background-color: #252525;
+    color: #ffffff;
 }
 
 .ddGreyB {
     background-color: #131518;
+    color: #ffffff;
 }
 
 .lBlueB {
     background-color: #4289C3;
+    color: #000000;
 }
 
 .sBlueB {
     background-color: #1943A4;
+    color: #ffffff;
 }
 
 .bBlueB {
     background-color: #053CC5;
+    color: #ffffff;
 }
 
 .mBlueB {
     background-color: #00426D;
+    color: #ffffff;
 }
 
 .dBlueB {
     background-color: #092565;
+    color: #ffffff;
 }
 
 .cihBlueB {
     background-color: #00ADEE;
+    color: #ffffff;
 }
 
 .plainColorB {
     background-color: #FAFAFA;
+    color: #000000;
 }
 
 
