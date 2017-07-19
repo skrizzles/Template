@@ -3,11 +3,8 @@
 @import url('https: //cdn.rawgit.com/google/code-prettify/master/styles/desert.css');
 @import url('https: //rawgit.com/siolarah/cardeostrap/master/assets/css/theme.css');
 
-
-
-
-
 /* Basic */
+
 body {
     background: #ffffff;
     font-family: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
@@ -16,12 +13,14 @@ body {
     color: #333333;
 }
 
-ul, ol {
+ul,
+ol {
     margin-bottom: 1.5em;
     margin-left: 2em;
 }
 
-ul.unstyled, ul.inline {
+ul.unstyled,
+ul.inline {
     margin-left: 0;
     padding-left: 0;
 }
@@ -39,16 +38,6 @@ ul.inline li.right {
     margin-left: 1em;
 }
 
-a, a:link, a:visited {
-    color: #3498db;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #232323;
-    text-decoration: underline;
-}
-
 p {
     margin-bottom: 1.5em;
 }
@@ -59,29 +48,46 @@ hr {
     border-bottom: 0;
 }
 
-
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
     font-weight: normal;
 }
 
-
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
     font-size: 0.75em;
     color: #bdc3c7;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0.5em 0em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #333333;
 }
 
-
-small, .small {
+small,
+.small {
     font-size: 0.75em;
     color: #bdc3c7;
 }
@@ -115,22 +121,26 @@ small, .small {
 }
 
 
-
 /* 
 TABLES
 */
 
-table, .table {
+table,
+.table {
     margin-bottom: 1.5em;
     background: #ffffff;
 }
 
-th, .table th, .table th {
+th,
+.table th,
+.table th {
     padding: 1em;
     line-height: 1.428571429;
 }
 
-td, .table td, .table td {
+td,
+.table td,
+.table td {
     padding: 1em;
     line-height: 1.428571429;
     vertical-align: middle;
@@ -146,83 +156,6 @@ caption {
     border-bottom: 0;
 }
 
-
-/* adds zebra striping */
-
-.table-striped tbody > tr:nth-child(odd) {
-    background: #ecf0f1;
-}
-
-
-/* enables a hover state on table rows within the tbody */
-
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th, .table-striped.table-hover tbody tr:hover td, .table-striped.table-hover tbody tr:hover th {
-    background-color: #bdc3c7;
-    -moz-transition: background 0.1s linear;
-    -webkit-transition: background 0.1s linear;
-    transition: background 0.1s linear;
-}
-
-
-/* makes tables more condensed by cutting cell padding in half */
-
-.table-condensed th, .table-condensed td, .table-striped.table-condensed td, .table-striped.table-condensed th {
-    padding: 0.5em;
-    font-size: 0.857em;
-}
-
-.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
-    background-color: transparent;
-}
-
-.table-bordered th, .table-bordered td {
-    border: #bdc3c7 1px solid;
-    border-top: 0;
-}
-
-th.center, td.center {
-    text-align: center;
-}
-
-th.right, td.right {
-    text-align: right;
-}
-
-th {
-    white-space: nowrap;
-}
-
-.table > thead > tr > td.success, .table > tbody > tr > td.success, .table > tfoot > tr > td.success, .table > thead > tr > th.success, .table > tbody > tr > th.success, .table > tfoot > tr > th.success, .table > thead > tr.success > td, .table > tbody > tr.success > td, .table > tfoot > tr.success > td, .table > thead > tr.success > th, .table > tbody > tr.success > th, .table > tfoot > tr.success > th {
-    background: #27ae60;
-    border-color: #27ae60;
-    color: #ffffff;
-}
-
-.table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th {
-    background: #c0392b;
-    border-color: #c0392b;
-    color: #ffffff;
-}
-
-.table > thead > tr > td.warning, .table > tbody > tr > td.warning, .table > tfoot > tr > td.warning, .table > thead > tr > th.warning, .table > tbody > tr > th.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > tbody > tr.warning > td, .table > tfoot > tr.warning > td, .table > thead > tr.warning > th, .table > tbody > tr.warning > th, .table > tfoot > tr.warning > th {
-    background: #f39c12;
-    border-color: #f39c12;
-    color: #ffffff;
-}
-
-.table > thead > tr > td.active, .table > tbody > tr > td.active, .table > tfoot > tr > td.active, .table > thead > tr > th.active, .table > tbody > tr > th.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > tbody > tr.active > td, .table > tfoot > tr.active > td, .table > thead > tr.active > th, .table > tbody > tr.active > th, .table > tfoot > tr.active > th {
-    background-color: #ecf0f1;
-    border-color: #bdc3c7;
-}
-
-
-
-
-
-
-
-
-
 #mainbody {
     margin-left: 10px;
     padding-top: 5px;
@@ -233,144 +166,270 @@ th {
 }
 
 
-
 /* Serialio Colors */
-.lYellow {color:#FFF4AF;}
-.sYellow {color:#FCDB0A;}
-.dYellow {color:#FBC400;}
-.lGreen {color:#72DC89;}
-.sGreen {color:#28BF49;}
-.mGreen {color:#01851E;}
-.dGreen {color:#00420F;}
-.lRed {color:#FFF2F4;}
-.mRed {color:#E54E4B;}
-.sRed {color:#AF2828;}
-.bRed {color:#E41B23;}
-.dRed {color:#630000;}
-.fGrey {color:#F3F3F3;}
-.lGrey {color:#B0B0B0;}
-.mGrey {color:#7A7A7A;}
-.sGrey {color:#333538;}
-.dGrey {color:#252525;}
-.ddGrey {color:#131518;}
-.lBlue {color:#4289C3;}
-.sBlue {color:#1943A4;}
-.bBlue {color:#053CC5;}
-.mBlue {color:#00426D;}
-.dBlue {color:#092565;}
-.cihBlue {color:#00ADEE;}
-.plainColor {color:#FAFAFA;}
 
+.lYellow {
+    color: #FFF4AF;
+}
 
+.sYellow {
+    color: #FCDB0A;
+}
 
+.dYellow {
+    color: #FBC400;
+}
+
+.lGreen {
+    color: #72DC89;
+}
+
+.sGreen {
+    color: #28BF49;
+}
+
+.mGreen {
+    color: #01851E;
+}
+
+.dGreen {
+    color: #00420F;
+}
+
+.lRed {
+    color: #FFF2F4;
+}
+
+.mRed {
+    color: #E54E4B;
+}
+
+.sRed {
+    color: #AF2828;
+}
+
+.bRed {
+    color: #E41B23;
+}
+
+.dRed {
+    color: #630000;
+}
+
+.fGrey {
+    color: #F3F3F3;
+}
+
+.lGrey {
+    color: #B0B0B0;
+}
+
+.mGrey {
+    color: #7A7A7A;
+}
+
+.sGrey {
+    color: #333538;
+}
+
+.dGrey {
+    color: #252525;
+}
+
+.ddGrey {
+    color: #131518;
+}
+
+.lBlue {
+    color: #4289C3;
+}
+
+.sBlue {
+    color: #2560FA;
+}
+
+.bBlue {
+    color: #053CC5;
+}
+
+.mBlue {
+    color: #00426D;
+}
+
+.dBlue {
+    color: #092565;
+}
+
+.cihBlue {
+    color: #00ADEE;
+}
+
+.plainColor {
+    color: #FAFAFA;
+}
+
+.lYellowB {
+    background-color: #FFF4AF;
+}
+
+.sYellowB {
+    background-color: #FCDB0A;
+}
+
+.dYellowB {
+    background-color: #FBC400;
+}
+
+.lGreenB {
+    background-color: #72DC89;
+}
+
+.sGreenB {
+    background-color: #28BF49;
+}
+
+.mGreenB {
+    background-color: #01851E;
+}
+
+.dGreenB {
+    background-color: #00420F;
+}
+
+.lRedB {
+    background-color: #FFF2F4;
+}
+
+.mRedB {
+    background-color: #E54E4B;
+}
+
+.sRedB {
+    background-color: #AF2828;
+}
+
+.bRedB {
+    background-color: #E41B23;
+}
+
+.dRedB {
+    background-color: #630000;
+}
+
+.fGreyB {
+    background-color: #F3F3F3;
+}
+
+.lGreyB {
+    background-color: #B0B0B0;
+}
+
+.mGreyB {
+    background-color: #7A7A7A;
+}
+
+.sGreyB {
+    background-color: #333538;
+}
+
+.dGreyB {
+    background-color: #252525;
+}
+
+.ddGreyB {
+    background-color: #131518;
+}
+
+.lBlueB {
+    background-color: #4289C3;
+}
+
+.sBlueB {
+    background-color: #1943A4;
+}
+
+.bBlueB {
+    background-color: #053CC5;
+}
+
+.mBlueB {
+    background-color: #00426D;
+}
+
+.dBlueB {
+    background-color: #092565;
+}
+
+.cihBlueB {
+    background-color: #00ADEE;
+}
+
+.plainColorB {
+    background-color: #FAFAFA;
+}
 
 
 /* Links */
+
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
+
 a:link {
     color: #2E67F7;
 }
+
 a:visited {
     color: #053CC5;
 }
+
 a:hover {
     color: red;
     outline-width: 0
 }
+
 a:active {
     color: #8D0E0E;
     outline-width: 0
 }
 
 
-
-
-
-
 /* Headers */
+
 h1 {
     font-size: 40px;
     font-weight: bold;
 }
+
 h2 {
     font-size: 28px;
     font-weight: bold;
 }
+
 h3 {
     font-size: 24px;
     font-weight: bold;
 }
+
 h4 {
     font-size: 20px;
     font-weight: bold;
 }
+
 h5 {
     font-size: 18px;
     font-weight: bold;
 }
+
 h6 {
     font-size: 16px;
     font-weight: bold;
 }
 
 
-
-
-
-
-/* Unordered List */
-ul.circle {
-    list-style-type: circle inside;
-}
-
-ul.square {
-    list-style-type: square inside;
-}
-
-ul.disc {
-    list-style-type: disc inside;
-}
-
-ul.none {
-    list-style-type: none inside;
-}
-
-
-
-
-
-
-
-/* Ordered List */
-ol.num {
-    list-style-type: decimal inside; 
-}
-
-ol.lowerroman {
-    list-style-type: lower-roman inside;
-}
-
-ol.upperroman {
-    list-style-type: upper-roman inside;
-}
-
-ol.loweralpha {
-    list-style-type: lower-alpha inside;
-}
-
-ol.upperalpha {
-    list-style-type: upper-alpha inside;
-}
-
-ol.none {
-    list-style-type: none;
-}
-
-
 /* Fancy List (.f) */
+
 ol.f {
     color: #000000;
     list-style-type: none;
@@ -389,17 +448,13 @@ li.f p {
     color: #000;
 }
 
-
-
 span.a {
     position: absolute;
 }
 
 
-
-
-
 /* Comment */
+
 .comment {
     border-left: 5px solid #7A7A7A!important;
     background-color: #F3F3F3;
@@ -412,12 +467,8 @@ span.a {
 }
 
 
-
-
-
-
-
 /* Tip */
+
 .tip {
     border-left: 4px solid #4CAF50!important;
     background-color: #DDFFDD;
@@ -433,8 +484,8 @@ span.a {
 }
 
 
-
 /* Info */
+
 .information {
     border-left: 5px solid #2196F3!important;
     background-color: #D7F2FF;
@@ -447,8 +498,8 @@ span.a {
 }
 
 
-
 /* Warning */
+
 .warning {
     border-left: 5px solid #FFEB3B!important;
     background-color: #FFFFCC;
@@ -461,8 +512,8 @@ span.a {
 }
 
 
-
 /* Critical */
+
 .critical {
     border-left: 5px solid #E54E4B!important;
     background-color: #FFF2F4;
@@ -475,9 +526,8 @@ span.a {
 }
 
 
-
-
 /* Code Block ++ */
+
 .codeBlock {
     margin-left: 35px;
     width: 50%;
@@ -492,10 +542,8 @@ span.a {
 }
 
 
-
-
-
 /* Terminal Block */
+
 .terminalBlock {
     margin-left: 35px;
     width: 50%;
@@ -513,9 +561,8 @@ span.a {
 }
 
 
-
-
 /* Configuration Block */
+
 .configBlock {
     border: 1px solid #AAAAAA!important;
     background-color: #F3F3F3;
@@ -528,10 +575,8 @@ span.a {
 }
 
 
-
-
-
 /* Description Block */
+
 .desBlock {
     border: 1px solid #7A7A7A!important;
     background-color: #F3F3F3;
@@ -546,10 +591,8 @@ span.a {
 }
 
 
-
-
-
 /* Requirements Block */
+
 .reqBlock {
     border: 1px solid #E54E4B!important;
     background-color: #FFF2F4;
@@ -562,54 +605,41 @@ span.a {
 }
 
 
-
-
-
 /* Definition */
+
 dfn {
     font-style: italic
 }
 
 
-
-
-
 /* Mark */
+
 mark {
     background: #ff0;
     color: #000
 }
 
 
-
-
-
-
 /* Section */
+
 .section {
     padding: 15px;
 }
 
 
-
-
 /* Paragraph */
+
 .p {
     padding-left: 5px!important;
     padding-bottom: 5px!important;
 }
 
 
-
-
 /* Steps Section */
+
 .step {
     padding: 5px!important;
 }
-
-
-
-
 
 
 /* Tooltip */
